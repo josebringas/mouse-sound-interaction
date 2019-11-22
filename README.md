@@ -66,7 +66,7 @@
         if ( over() ) { // si esto es cierto, entonces
           strokeWeight(5);
           fill(x,y,150);
-          if ( onlyonce ) play(idx); //___________________ call global sound handler. Si dentro de lo primero, esto es cierto
+          if ( onlyonce ) play(idx); //___________________ call global sound handler.
           onlyonce = false;
         } else {
           onlyonce = true; //_ only first time
